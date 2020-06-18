@@ -1,0 +1,28 @@
+    .search-line{
+        color: $text-color;
+        position: relative;
+        &__form{
+            background-color: $label-color;
+            height: $form-height;
+            border-radius: $form-height/2;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding-left: $form-height/2;
+            padding-right: $form-height/2;
+        }
+        &__input{
+            height: 100%;
+            font-size: 25px;
+            width: 90%;
+        }
+        &__btn{
+            height: $form-height;
+            width: $form-height;
+            cursor: pointer;
+        }
+        .material-icons{
+            color: $text-color;
+            font-size: 35px;
+        }
+    }

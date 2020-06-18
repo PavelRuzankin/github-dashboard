@@ -1,0 +1,37 @@
+.result-list{
+    padding-bottom: 100px;
+    &__card{
+        cursor: pointer;
+        margin-top: 30px;
+        transition: 0.3s;
+        background-color: $block-color;
+        padding: 25px;
+        border-radius: 25px;
+        box-shadow:3px 2px 9px 8px rgba(0,0,0,0.11);
+        color: $text-color;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    &__card:hover{
+        box-shadow:3px 2px 8px 15px rgba(0,0,0,0.06);
+        transform: scaleY(1.1);
+        transform: scaleX(1.01);
+        color: $button-color;
+    }
+    &__name{
+       font-size: 30px;
+       text-decoration: underline;
+    }
+    &__stars{
+        display: flex;
+        text-align: center;
+        font-size: 30px;
+    }
+    &__total-count{
+        color: $text-color
+    }
+    .material-icons{
+        font-size: 35px;
+    }
+}

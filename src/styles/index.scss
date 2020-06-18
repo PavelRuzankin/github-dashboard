@@ -1,0 +1,45 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "search.scss";
+@import "loader.scss";
+@import "card-loader.scss";
+@import "result-list";
+@import "pagination.scss";
+@import "card.scss";
+
+input {border: none; outline: none; background-color: rgba(0,0,0,0);}
+button {height: 100%; border: none; outline: none; background-color: rgba(0,0,0,0);}
+body{margin: 0; padding: 0; background-color: $main-background-color;}
+ul{margin: 0; padding: 0;} li{list-style-type: none;}
+a{color: $text-color}
+
+header{
+    color: $text-color;
+    font-size: 25px;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+  }
+
+*{
+    font-family: $main-font;
+}
+
+.ibg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+
+
+
+

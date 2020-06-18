@@ -1,0 +1,28 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    &__wrapper{
+        display: flex;
+    }
+    &__list{
+        display: flex;
+    }
+    &__btn{
+        @include btn-style($label-color);
+        &_active{
+            background-color: $text-color;
+            color: $label-color;
+            
+        }
+    }
+    &__array{
+        @include btn-style($button-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

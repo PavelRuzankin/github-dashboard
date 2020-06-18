@@ -1,0 +1,75 @@
+.card{
+    background-color: $label-color;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__name{
+        cursor: pointer;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    &__stars{
+        min-width: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+    }
+    &__article{
+        padding-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__image{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        //background-image: url("https://vsezdorovo.com/wp-content/uploads/2020/05/29/rabota-v-avstralii777.jpg");
+    }
+    &__info{
+        max-width: 60%;
+        padding-left: 40px;
+    }
+    &__description{
+        font-size: 20px;
+    }
+    &__add-des{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__languages{
+        min-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__contributors{
+        max-width: 40%;
+    }
+
+    .material-icons{
+        font-size: 30px;
+    }
+}
+
+.ul-tabs{
+    ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            text-transform: uppercase;
+            padding: 5px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: $text-color;
+            color: $label-color;
+            border-radius: 5px;
+        }
+    }   
+}
